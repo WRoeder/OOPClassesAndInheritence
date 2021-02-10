@@ -23,8 +23,21 @@ namespace OOPClassesAndInheritence
             Console.WriteLine("What is the name of your member?: ");
             string newMember = Console.ReadLine();
 
+            Console.WriteLine("Linkin Park albums: ");
+            Console.WriteLine("1 - Hybrid Theory ");
+            Console.WriteLine("2 - Meteora ");
+            Console.WriteLine("3 - Minutes to Midnight ");
+            Console.WriteLine("4 - A Thousand Suns ");
+            Console.WriteLine("5 - LIVING THINGS ");
+            Console.WriteLine("6 - The Hunting Party ");
+            Console.WriteLine("7 - One More Light ");
             Console.WriteLine("What album do you want to listen to?: ");
-            string newAlbum = Console.ReadLine();
+            int newAlbum = 0;
+
+            try
+            {
+                newAlbum = int.Parse(Console.ReadLine());
+            }
 
             Console.ReadLine();
         }

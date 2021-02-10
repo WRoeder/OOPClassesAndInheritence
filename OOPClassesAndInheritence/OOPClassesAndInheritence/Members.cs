@@ -8,11 +8,11 @@ namespace OOPClassesAndInheritence
 {
     class Members
     {
-        public string MemberName;
+        public string Name;
 
         public Members(string _name = null)
         {
-            MemberName = _name;
+            Name = _name;
 
             Console.WriteLine("Member " + _name + " created at " + DateTime.Now.ToString("yyyy-MM-dd"));
         }
