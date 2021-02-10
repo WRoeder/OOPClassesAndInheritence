@@ -32,11 +32,15 @@ namespace OOPClassesAndInheritence
             Console.WriteLine("6 - The Hunting Party ");
             Console.WriteLine("7 - One More Light ");
             Console.WriteLine("What album do you want to listen to?: ");
-            int newAlbum = 0;
 
-            try
+            int newAlbum = 0;
+            newAlbum = int.Parse(Console.ReadLine());
+
+            if (newAlbum == 1)
             {
-                newAlbum = int.Parse(Console.ReadLine());
+                Albums ht = new Albums("Hybrid Theory");
+                ht.ReleaseDate = new DateTime(2000, 10, 24);
+                ht.thisGenre = Genre.NuMetal;
             }
 
             Console.ReadLine();

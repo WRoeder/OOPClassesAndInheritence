@@ -14,7 +14,7 @@ namespace OOPClassesAndInheritence
         public Songs(string _name = null)
         {
             Name = _name;
-            Console.WriteLine("Song " + _name + "created at " + DateTime.Now.ToString("yyyy-MM-dd"));
+            Console.WriteLine("Song " + _name + "created on " + DateTime.Now.ToString("yyyy-MM-dd"));
         }
     }
 }

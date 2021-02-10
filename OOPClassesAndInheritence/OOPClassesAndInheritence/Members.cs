@@ -14,7 +14,7 @@ namespace OOPClassesAndInheritence
         {
             Name = _name;
 
-            Console.WriteLine("Member " + _name + " created at " + DateTime.Now.ToString("yyyy-MM-dd"));
+            Console.WriteLine("Member " + _name + " created on " + DateTime.Now.ToString("yyyy-MM-dd"));
         }
     }
 }

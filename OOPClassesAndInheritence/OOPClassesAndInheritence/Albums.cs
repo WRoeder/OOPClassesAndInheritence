@@ -13,7 +13,6 @@ namespace OOPClassesAndInheritence
 
     class Albums : Members
     {
-        public string AlbumTitle;
         public Genre thisGenre;
         public DateTime ReleaseDate;
         public List<Songs> SongsInAlbum;
@@ -21,7 +20,9 @@ namespace OOPClassesAndInheritence
         public Albums(string _name = null)
         {
             Name = _name;
-            Console.WriteLine("Album " + _name + "created at " + DateTime.Now.ToString("yyyy-MM-dd"));
+            Console.WriteLine("Album " + _name + " created on " + DateTime.Now.ToString("yyyy-MM-dd"));
+            Console.WriteLine("This album was released on " + ReleaseDate.ToString());
+            Console.WriteLine("The genre of this album is " + thisGenre);
             SongsInAlbum = new List<Songs>();
         }
     }
