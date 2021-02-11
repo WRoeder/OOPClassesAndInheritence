@@ -20,9 +20,6 @@ namespace OOPClassesAndInheritence
             Members BradDelson = new Members("Brad Delson");
             Members DaveFarrell = new Members("Dave Farrell");
 
-            Console.WriteLine("What is the name of your member?: ");
-            string newMember = Console.ReadLine();
-
             Console.WriteLine("Linkin Park albums: ");
             Console.WriteLine("1 - Hybrid Theory ");
             Console.WriteLine("2 - Meteora ");
@@ -41,6 +38,9 @@ namespace OOPClassesAndInheritence
                 Albums ht = new Albums("Hybrid Theory");
                 ht.ReleaseDate = new DateTime(2000, 10, 24);
                 ht.thisGenre = Genre.NuMetal;
+
+                Songs ht1 = new Songs("Papercut");
+                ht1.SongDuration = 185f;
             }
 
             Console.ReadLine();

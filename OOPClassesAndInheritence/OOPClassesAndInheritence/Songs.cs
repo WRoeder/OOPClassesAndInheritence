@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace OOPClassesAndInheritence
 {
-    class Songs : Albums
+    class Songs
     {
-        public string SongTitle;
+        public string Name;
         public float SongDuration;
 
-        public Songs(string _name = null)
+        public Songs(string _SongName = null)
         {
-            Name = _name;
-            Console.WriteLine("Song " + _name + "created on " + DateTime.Now.ToString("yyyy-MM-dd"));
+            Name = _SongName;
+            Console.WriteLine("Song " + _SongName + " lasting " + SongDuration + " created on " + DateTime.Now.ToString("yyyy-MM-dd"));
         }
     }
 }

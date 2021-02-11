@@ -10,11 +10,11 @@ namespace OOPClassesAndInheritence
     {
         public string Name;
 
-        public Members(string _name = null)
+        public Members(string _MemName = null)
         {
-            Name = _name;
+            Name = _MemName;
 
-            Console.WriteLine("Member " + _name + " created on " + DateTime.Now.ToString("yyyy-MM-dd"));
+            Console.WriteLine("Member " + _MemName + " created on " + DateTime.Now.ToString("yyyy-MM-dd"));
         }
     }
 }
