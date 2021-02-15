@@ -41,6 +41,49 @@ namespace OOPClassesAndInheritence
 
                 Songs ht1 = new Songs("Papercut");
                 ht1.SongDuration = 185f;
+
+                Songs ht2 = new Songs("One Step Closer");
+                ht2.SongDuration = 157f;
+
+                Songs ht3 = new Songs("With You");
+                ht3.SongDuration = 203f;
+
+                Songs ht4 = new Songs("Points of Authority");
+                ht4.SongDuration = 200f;
+
+                Songs ht5 = new Songs("Crawling");
+                ht5.SongDuration = 209f;
+
+                Songs ht6 = new Songs("Runaway");
+                ht6.SongDuration = 184f;
+
+                Songs ht7 = new Songs("By Myself");
+                ht7.SongDuration = 190f;
+
+                Songs ht8 = new Songs("In the End");
+                ht8.SongDuration = 217f;
+
+                Songs ht9 = new Songs("A Place for My Head");
+                ht9.SongDuration = 185f;
+
+                Songs ht10 = new Songs("Forgotten");
+                ht10.SongDuration = 194f;
+
+                Songs ht11 = new Songs("Cure for the Itch");
+                ht11.SongDuration = 157f;
+
+                Songs ht12 = new Songs("Pushing Me Away");
+                ht12.SongDuration = 191f;
+
+                Songs ht13 = new Songs("My December");
+                ht13.SongDuration = 261f;
+
+                Songs ht14 = new Songs("High Voltage");
+                ht14.SongDuration = 225f;
+            }
+            else if (newAlbum == 2)
+            {
+
             }
 
             Console.ReadLine();

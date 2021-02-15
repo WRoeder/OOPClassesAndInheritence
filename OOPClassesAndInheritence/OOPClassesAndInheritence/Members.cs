@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOPClassesAndInheritence
 {
-    class Members
+    class Members : Objects
     {
-        public string Name;
 
         public Members(string _MemName = null)
         {

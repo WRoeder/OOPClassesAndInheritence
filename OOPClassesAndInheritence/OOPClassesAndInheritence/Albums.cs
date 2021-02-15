@@ -11,12 +11,8 @@ namespace OOPClassesAndInheritence
         NuMetal, PopRock, AlternativeRock, ElectronicRock
     }
 
-    class Albums
+    class Albums : Objects
     {
-        public string Name;
-        public Genre thisGenre;
-        public DateTime ReleaseDate;
-        public List<Songs> SongsInAlbum;
 
         public Albums(string _AlbName = null)
         {

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOPClassesAndInheritence
 {
-    class Songs
+    class Songs : Objects
     {
-        public string Name;
-        public float SongDuration;
 
         public Songs(string _SongName = null)
         {
