@@ -342,7 +342,19 @@ namespace OOPClassesAndInheritence
             else
             {
                 Console.WriteLine("Please enter a number between 1 - 7. ");
-                Console.WriteLine("What album do you want to listen to? ");
+                while (newAlbum <= 0 || newAlbum >= 8)
+                {
+                    Console.WriteLine("What album do you want to listen to? ");
+
+                    try
+                    {
+                        newAlbum = int.Parse(Console.ReadLine());
+                    }
+                    catch (Exception ex)
+                    {
+
+                    }
+                }
             }
 
             Console.ReadLine();
