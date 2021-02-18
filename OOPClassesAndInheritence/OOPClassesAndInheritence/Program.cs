@@ -15,7 +15,7 @@ namespace OOPClassesAndInheritence
             Console.WriteLine("The members of Linkin Park are: ");
             Members ChesterBennington = new Members("Chester Bennington");
             Members MikeShinoda = new Members("Mike Shinoda");
-            Members JoeHahn = new Members("Joe Harn");
+            Members JoeHahn = new Members("Joe Hahn");
             Members RobBourden = new Members("Rob Bourden");
             Members BradDelson = new Members("Brad Delson");
             Members DaveFarrell = new Members("Dave Farrell");
