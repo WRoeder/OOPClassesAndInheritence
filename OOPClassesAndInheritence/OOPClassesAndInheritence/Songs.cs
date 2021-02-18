@@ -9,10 +9,11 @@ namespace OOPClassesAndInheritence
     class Songs : Objects
     {
 
-        public Songs(string _SongName = null)
+        public Songs(string _SongName = null, float _SongDuration = 0)
         {
             Name = _SongName;
-            Console.WriteLine("Song " + _SongName + " lasting " + SongDuration + " created on " + DateTime.Now.ToString("yyyy-MM-dd"));
+            SongDuration = _SongDuration;
+            Console.WriteLine("Song " + _SongName + " lasting " + _SongDuration + " created on " + DateTime.Now.ToString("yyyy-MM-dd"));
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPClassesAndInheritence
 {
-    class Program
+    class Program : Objects
     {
         static void Main(string[] args)
         {
@@ -342,7 +342,7 @@ namespace OOPClassesAndInheritence
             else
             {
                 Console.WriteLine("Please enter a number between 1 - 7. ");
-                while (newAlbum <= 0 || newAlbum > 8)
+                while (newAlbum <= 0 || newAlbum >= 8)
                 {
                     Console.WriteLine("What album do you want to listen to? ");
 
