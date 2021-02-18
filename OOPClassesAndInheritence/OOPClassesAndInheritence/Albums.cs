@@ -14,12 +14,12 @@ namespace OOPClassesAndInheritence
     class Albums : Objects
     {
 
-        public Albums(string _AlbName = null)
+        public Albums(string _AlbName = null, string _AlbRelease = null, Genre _AlbGenre = 0)
         {
             Name = _AlbName;
-            Console.WriteLine("Album " + _AlbName + " created on " + DateTime.Now.ToString("yyyy-MM-dd"));
-            Console.WriteLine("This album was released on " + ReleaseDate.ToString());
-            Console.WriteLine("The genre of this album is " + thisGenre);
+            ReleaseDate = _AlbRelease;
+            thisGenre = _AlbGenre;
+            Console.WriteLine("Album " + _AlbName + " was released on " + _AlbRelease + " and is apart of the " + _AlbGenre + " genre.");
             SongsInAlbum = new List<Songs>();
         }
     }

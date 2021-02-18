@@ -13,7 +13,7 @@ namespace OOPClassesAndInheritence
         {
             Name = _SongName;
             SongDuration = _SongDuration;
-            Console.WriteLine("Song " + _SongName + " lasting " + _SongDuration + " created on " + DateTime.Now.ToString("yyyy-MM-dd"));
+            Console.WriteLine("Song " + _SongName + " lasting " + _SongDuration + " seconds created on " + DateTime.Now.ToString("yyyy-MM-dd"));
         }
     }
 }

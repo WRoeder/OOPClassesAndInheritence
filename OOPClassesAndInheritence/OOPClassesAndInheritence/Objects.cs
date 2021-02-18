@@ -11,7 +11,7 @@ namespace OOPClassesAndInheritence
         public string Name;
         public float SongDuration;
         public Genre thisGenre;
-        public DateTime ReleaseDate;
+        public string ReleaseDate;
         public List<Songs> SongsInAlbum;
     }
 }
